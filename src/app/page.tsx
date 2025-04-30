@@ -3,6 +3,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-   <p>ascas66casca222sc</p>
+   <p>96532.565232222sc</p>
   );
 }
