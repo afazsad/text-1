@@ -1,27 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { useEffect } from "react";
 
 export default function Home() {
-  const NameUpdate = (team: string) => {
-    return 0;
-  };
-
-  useEffect(() => {
-    NameUpdate(0);
-  }, []);
-
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
+      afazsad
         <ol>
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
