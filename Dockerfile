@@ -9,7 +9,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-RUN apk add --no-cache curl
 
 # مرحله production
 FROM node:18-alpine AS runner
