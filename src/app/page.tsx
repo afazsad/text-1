@@ -3,6 +3,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-   <p>.2222.</p>
+   <p>.2.</p>
   );
 }
