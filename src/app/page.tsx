@@ -3,6 +3,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-   <p>۲۲۲۲</p>
+   <p>1</p>
   );
 }
