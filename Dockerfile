@@ -9,6 +9,8 @@ RUN npm install
 COPY . .
 RUN npm run build
 
+RUN apt-get update && apt-get install -y curl
+
 # مرحله production
 FROM node:18-alpine AS runner
 
